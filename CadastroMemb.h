@@ -8,7 +8,7 @@ vector<Membros*> cadastra_membros(){
     memb.push_back(m);
     m = new Membros("Alice", " 5B 81 C0 21", "ID_TELEGRAM", "Alice"); // Alana
     memb.push_back(m);
-    m = new Membros("Artur", " ID_TAG", "ID_TELEGRAM", "Arthur");
+    m = new Membros("Artur", " ID_TAG", "ID_TELEGRAM", "Artur");
     memb.push_back(m);
     m = new Membros("Cecilia", " ID_TAG", "ID_TELEGRAM", "Cecilia");
     memb.push_back(m);
