@@ -34,8 +34,6 @@ vector<Membros*> cadastra_membros(){
     memb.push_back(m);
     m = new Membros("Larissa P.", " B9 08 96 6D", "ID_TELEGRAM", "Larissa Pais");
     memb.push_back(m);
-    m = new Membros("Larissa V.", " ID_TAG", "ID_TELEGRAM", "Larissa Rodrigues");
-    memb.push_back(m);
     m = new Membros("Letícia", " 36 F7 11 9E", "ID_TELEGRAM", "Leticia");
     memb.push_back(m);
     m = new Membros("Mariana", " ID_TAG", "ID_TELEGRAM", "Mariana");
