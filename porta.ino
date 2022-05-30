@@ -467,6 +467,15 @@ bool monitorWipeButton(uint32_t interval) {
   return true;
 }
 ////////////////////// Print Info on LCD   ///////////////////////////////////
+
+unsigned StringLength(message) {
+  for (i= 0, i < message.length(), i++){
+    lcd.scrollDisplayLeft();
+
+  }
+}
+
+
 void ShowOnLCD() {
   lcd.clear();
   lcd.setCursor(0, 0);
